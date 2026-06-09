@@ -1,0 +1,15 @@
+/home/dunice/MyCRM/MyCRM.Application/bin/Debug/net8.0/MyCRM.Application.deps.json
+/home/dunice/MyCRM/MyCRM.Application/bin/Debug/net8.0/MyCRM.Application.dll
+/home/dunice/MyCRM/MyCRM.Application/bin/Debug/net8.0/MyCRM.Application.pdb
+/home/dunice/MyCRM/MyCRM.Application/bin/Debug/net8.0/MyCRM.Domain.dll
+/home/dunice/MyCRM/MyCRM.Application/bin/Debug/net8.0/MyCRM.Domain.pdb
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.csproj.AssemblyReference.cache
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.AssemblyInfoInputs.cache
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.AssemblyInfo.cs
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.csproj.CoreCompileInputs.cache
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Ap.8D11A750.Up2Date
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.dll
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/refint/MyCRM.Application.dll
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/MyCRM.Application.pdb
+/home/dunice/MyCRM/MyCRM.Application/obj/Debug/net8.0/ref/MyCRM.Application.dll

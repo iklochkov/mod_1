@@ -1,0 +1,12 @@
+/home/dunice/MyCRM/MyCRM.Domain/bin/Debug/net8.0/MyCRM.Domain.deps.json
+/home/dunice/MyCRM/MyCRM.Domain/bin/Debug/net8.0/MyCRM.Domain.dll
+/home/dunice/MyCRM/MyCRM.Domain/bin/Debug/net8.0/MyCRM.Domain.pdb
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.csproj.AssemblyReference.cache
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.AssemblyInfoInputs.cache
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.AssemblyInfo.cs
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.csproj.CoreCompileInputs.cache
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.dll
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/refint/MyCRM.Domain.dll
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/MyCRM.Domain.pdb
+/home/dunice/MyCRM/MyCRM.Domain/obj/Debug/net8.0/ref/MyCRM.Domain.dll

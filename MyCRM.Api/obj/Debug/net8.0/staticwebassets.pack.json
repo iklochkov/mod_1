@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "/home/dunice/MyCRM/MyCRM.Api/wwwroot/notifications.html",
+      "PackagePath": "staticwebassets/notifications.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MyCRM.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MyCRM.Api.props",
+      "PackagePath": "build\\MyCRM.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MyCRM.Api.props",
+      "PackagePath": "buildMultiTargeting\\MyCRM.Api.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MyCRM.Api.props",
+      "PackagePath": "buildTransitive\\MyCRM.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "LIzM7QkTVwkOmI/ibUyNgxd90mA0WoMeUAHSjombOxE=",
+  "Source": "MyCRM.Api",
+  "BasePath": "_content/MyCRM.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyCRM.Api/wwwroot",
+      "Source": "MyCRM.Api",
+      "ContentRoot": "/home/dunice/MyCRM/MyCRM.Api/wwwroot/",
+      "BasePath": "_content/MyCRM.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/dunice/MyCRM/MyCRM.Api/wwwroot/notifications.html",
+      "SourceId": "MyCRM.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dunice/MyCRM/MyCRM.Api/wwwroot/",
+      "BasePath": "_content/MyCRM.Api",
+      "RelativePath": "notifications.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/notifications.html"
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>CRM Flow | Уведомления о сделках — исправленная обводка и кнопка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            transition: background 0.3s ease, color 0.3s ease;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        /* СВЕТЛАЯ ТЕМА (по умолчанию) */
+        body.light {
+            background: linear-gradient(145deg, #f6f9fc 0%, #edf2f7 100%);
+            color: #1e293b;
+        }
+        body.dark {
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+
+        /* Контейнер */
+        .container {
+            max-width: 1080px;
+            margin: 0 auto;
+        }
+
+        /* Карточки */
+        .card {
+            border-radius: 28px;
+            transition: background 0.3s ease, box-shadow 0.3s ease;
+        }
+        body.light .card {
+            background: rgba(255, 255, 255, 0.96);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04), 0 0 0 1px rgba(0, 0, 0, 0.01);
+        }
+        body.dark .card {
+            background: #1e293b;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+            border: 1px solid #334155;
+        }
+
+        /* Шапка */
+        .header {
+            text-align: center;
+            padding: 2rem 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.3px;
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+        }
+        body.light .logo { color: #0f172a; }
+        body.dark .logo { color: #f1f5f9; }
+        .logo i {
+            background: linear-gradient(135deg, #3b82f6, #06b6d4);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-size: 2rem;
+        }
+        .tagline {
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+        body.light .tagline { color: #5b6e8c; }
+        body.dark .tagline { color: #94a3b8; }
+
+        /* Панель управления темой + статус */
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .theme-toggle {
+            background: transparent;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+            width: 44px;
+            height: 44px;
+            border-radius: 40px;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        body.light .theme-toggle {
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+        body.dark .theme-toggle {
+            background: #334155;
+            color: #fbbf24;
+        }
+        .status-panel {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.9rem 1.8rem;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .connection {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 6px 18px;
+            border-radius: 40px;
+        }
+        body.light .connection { background: #f1f5f9; color: #1e293b; }
+        body.dark .connection { background: #334155; color: #cbd5e1; }
+        .dot {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            background: #cbd5e1;
+            transition: all 0.2s;
+        }
+        .dot.active { background: #10b981; box-shadow: 0 0 0 2px rgba(16,185,129,0.2); }
+        .dot.reconnecting { background: #f59e0b; }
+        .counter-badge {
+            padding: 6px 16px;
+            border-radius: 40px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        body.light .counter-badge { background: #f1f5f9; color: #1f2a44; }
+        body.dark .counter-badge { background: #334155; color: #cbd5e1; }
+
+        /* Блок авторизации — УЛУЧШЕННАЯ ОБВОДКА ДЛЯ ИНПУТА */
+        .auth-block {
+            padding: 1.6rem 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+        .auth-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+        }
+        .token-wrapper {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+        .token-input {
+            flex: 1;
+            padding: 12px 18px;
+            border-radius: 48px;
+            font-family: 'Monaco', monospace;
+            font-size: 0.8rem;
+            transition: all 0.25s ease;
+            /* ========== КЛЮЧЕВОЕ: ЯВНАЯ, КОНТРАСТНАЯ ОБВОДКА ========== */
+            border: 2px solid #cbd5e1;
+            background: #ffffff;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.02);
+        }
+        body.light .token-input {
+            border: 2px solid #cbd5e1;
+            background: #ffffff;
+            color: #0f172a;
+        }
+        body.dark .token-input {
+            border: 2px solid #475569;
+            background: #0f172a;
+            color: #e2e8f0;
+        }
+        /* Фокус: яркая обводка + свечение */
+        .token-input:focus {
+            outline: none;
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 3px rgba(59,130,246,0.25), 0 1px 3px rgba(0,0,0,0.05);
+        }
+        /* Чёткий стиль, когда поле активно или при ошибке (пользователь видит границу) */
+        body.dark .token-input:focus {
+            border-color: #60a5fa;
+            box-shadow: 0 0 0 3px rgba(96,165,250,0.3);
+        }
+        /* Доп. акцент при ховере */
+        .token-input:hover {
+            border-color: #94a3b8;
+        }
+        body.dark .token-input:hover {
+            border-color: #64748b;
+        }
+
+        /* Кнопки — исправляем внешний вид, делаем кликабельными с чёткими эффектами */
+        .btn {
+            padding: 0 26px;
+            border-radius: 48px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+        body.light .btn { background: #f1f5f9; color: #1e293b; }
+        body.dark .btn { background: #334155; color: #f1f5f9; }
+        .btn-primary {
+            background: #3b82f6;
+            color: white;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        }
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 10px rgba(59,130,246,0.25);
+        }
+        .btn-primary:active { transform: translateY(0px); }
+        .btn:active { transform: scale(0.97); }
+        #disconnectBtn {
+            background: #ef4444;
+            color: white;
+        }
+        #disconnectBtn:hover {
+            background: #dc2626;
+            transform: translateY(-1px);
+        }
+
+        .feedback {
+            font-size: 0.7rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        body.light .feedback { color: #5e6f8d; }
+        body.dark .feedback { color: #94a3b8; }
+
+        /* Секция уведомлений */
+        .notif-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.2rem 1.8rem 0.5rem 1.8rem;
+        }
+        .notif-title {
+            font-weight: 600;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .clear-btn {
+            background: transparent;
+            border: none;
+            font-size: 0.75rem;
+            cursor: pointer;
+            padding: 6px 12px;
+            border-radius: 30px;
+            transition: all 0.2s;
+        }
+        body.light .clear-btn { color: #7c8ba0; }
+        body.dark .clear-btn { color: #94a3b8; }
+        .clear-btn:hover { color: #ef4444; background: rgba(239,68,68,0.1); }
+
+        /* Лента уведомлений */
+        .feed {
+            padding: 1rem 1.5rem 2rem 1.5rem;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+        .feed::-webkit-scrollbar { width: 4px; }
+        .feed::-webkit-scrollbar-track { border-radius: 4px; }
+        body.light .feed::-webkit-scrollbar-track { background: #eef2f5; }
+        body.dark .feed::-webkit-scrollbar-track { background: #1e293b; }
+        .feed::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+
+        /* Элемент уведомления */
+        .notif-item {
+            border-radius: 20px;
+            padding: 1rem 1.2rem;
+            margin-bottom: 0.75rem;
+            transition: all 0.2s;
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            animation: slideIn 0.25s ease-out;
+        }
+        body.light .notif-item {
+            background: #ffffff;
+            border: 1px solid #eef2f8;
+        }
+        body.dark .notif-item {
+            background: #0f172a;
+            border: 1px solid #334155;
+        }
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .notif-item:hover {
+            transform: translateX(2px);
+        }
+        body.light .notif-item:hover { background: #fafdff; border-color: #dfe6ef; }
+        body.dark .notif-item:hover { background: #1e293b; border-color: #475569; }
+        .notif-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+        }
+        body.light .notif-icon { background: #f8fafd; }
+        body.dark .notif-icon { background: #1e293b; }
+        .notif-content { flex: 1; }
+        .notif-title-item { font-weight: 600; font-size: 0.85rem; margin-bottom: 4px; }
+        .notif-msg { font-size: 0.75rem; line-height: 1.4; word-break: break-word; }
+        body.light .notif-msg { color: #52637a; }
+        body.dark .notif-msg { color: #94a3b8; }
+        .notif-time { font-size: 0.65rem; margin-top: 6px; }
+        body.light .notif-time { color: #8d9bb0; }
+        body.dark .notif-time { color: #64748b; }
+
+        /* Типы уведомлений */
+        .notif-won .notif-icon { background: #e9f9ef; color: #2e7d32; }
+        body.dark .notif-won .notif-icon { background: #133e1f; color: #6fbf4c; }
+        .notif-won { border-left: 3px solid #4caf50; }
+        .notif-lost .notif-icon { background: #fff0f0; color: #c62828; }
+        body.dark .notif-lost .notif-icon { background: #3b1717; color: #f87171; }
+        .notif-lost { border-left: 3px solid #f44336; }
+
+        .empty-placeholder { text-align: center; padding: 48px 20px; }
+        footer { text-align: center; font-size: 0.7rem; margin-top: 1.5rem; }
+        body.light footer { color: #8da0b5; }
+        body.dark footer { color: #475569; }
+        @media (max-width: 640px) {
+            body { padding: 1rem; }
+            .token-wrapper { flex-direction: column; }
+            .btn { padding: 10px 20px; justify-content: center; }
+        }
+    </style>
+</head>
+<body class="light">
+<div class="container">
+    <!-- Шапка с переключателем темы -->
+    <div class="top-bar">
+        <div class="card header" style="flex:1; margin-bottom:0;">
+            <div class="logo">
+                <i class="fas fa-chart-network"></i>
+                <span>CRM Flow</span>
+            </div>
+            <div class="tagline">Центр управления сделками и событиями в реальном времени</div>
+        </div>
+        <button class="theme-toggle" id="themeToggleBtn">
+            <i class="fas fa-moon"></i>
+        </button>
+    </div>
+
+    <!-- Статус -->
+    <div class="card status-panel">
+        <div class="connection">
+            <div class="dot" id="statusDot"></div>
+            <span id="connectionLabel">Ожидание</span>
+        </div>
+        <div class="counter-badge">
+            <i class="far fa-bell"></i> <strong id="eventCountSpan">0</strong> уведомлений
+        </div>
+    </div>
+
+    <!-- JWT-блок с УЛУЧШЕННОЙ ОБВОДКОЙ и ЧЁТКОЙ КНОПКОЙ -->
+    <div class="card auth-block">
+        <div class="auth-title">
+            <i class="fas fa-shield-alt" style="color:#3b82f6"></i>
+            <span>Доступ к потоку событий (JWT)</span>
+        </div>
+        <div class="token-wrapper">
+            <input type="text" id="tokenInput" class="token-input" placeholder="eyJhbGciOiJIUzI1NiIs... Введите JWT токен">
+            <button class="btn btn-primary" id="connectBtn"><i class="fas fa-plug"></i> Подключиться</button>
+            <button class="btn" id="disconnectBtn" style="display:none;"><i class="fas fa-power-off"></i> Отключить</button>
+        </div>
+        <div class="feedback" id="feedbackMsg">
+            <i class="fas fa-info-circle"></i> Вставьте токен (или используйте тестовый, если сервер ожидает)
+        </div>
+    </div>
+
+    <!-- Лента уведомлений -->
+    <div class="card">
+        <div class="notif-header">
+            <div class="notif-title"><i class="fas fa-bolt"></i> События сделок</div>
+            <button class="clear-btn" id="clearAllBtn"><i class="far fa-trash-alt"></i> Очистить</button>
+        </div>
+        <div class="feed" id="feedContainer">
+            <div class="empty-placeholder" id="emptyFeed">
+                <i class="fas fa-database" style="font-size: 2rem; opacity: 0.5"></i>
+                <p>Нет новых событий</p>
+                <span style="font-size: 0.7rem;">После подключения изменение статуса сделки на Won/Lost отобразится здесь</span>
+            </div>
+        </div>
+    </div>
+    <footer>⚡ WebSocket + JWT • Real-time уведомления об изменении статусов сделок</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.7/signalr.min.js"></script>
+<script>
+    // ТЕМНАЯ/СВЕТЛАЯ ТЕМА
+    const themeToggle = document.getElementById('themeToggleBtn');
+    const htmlElement = document.body;
+    function applyTheme(theme) {
+        if (theme === 'dark') {
+            htmlElement.classList.remove('light');
+            htmlElement.classList.add('dark');
+            localStorage.setItem('crm_theme', 'dark');
+            themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            htmlElement.classList.remove('dark');
+            htmlElement.classList.add('light');
+            localStorage.setItem('crm_theme', 'light');
+            themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+        }
+    }
+    const savedTheme = localStorage.getItem('crm_theme') || 'light';
+    applyTheme(savedTheme);
+    themeToggle.addEventListener('click', () => {
+        const isDark = document.body.classList.contains('dark');
+        applyTheme(isDark ? 'light' : 'dark');
+    });
+
+    // Элементы UI
+    const tokenInput = document.getElementById('tokenInput');
+    const connectBtn = document.getElementById('connectBtn');
+    const disconnectBtn = document.getElementById('disconnectBtn');
+    const clearAllBtn = document.getElementById('clearAllBtn');
+    const feedContainer = document.getElementById('feedContainer');
+    const emptyFeed = document.getElementById('emptyFeed');
+    const statusDot = document.getElementById('statusDot');
+    const connectionLabel = document.getElementById('connectionLabel');
+    const eventCountSpan = document.getElementById('eventCountSpan');
+    const feedbackMsg = document.getElementById('feedbackMsg');
+
+    let connection = null;
+    let eventsCount = 0;
+    let activeToken = '';
+    
+    // Симуляция демо-событий (только если бекенд не шлёт данные, для демонстрации работы UI)
+    let demoInterval = null;
+    function stopDemoEvents() { if(demoInterval) { clearInterval(demoInterval); demoInterval = null; } }
+    function startDemoEventsIfNeeded() {
+        if(demoInterval) return;
+        // Демо-генерация только для иллюстрации, чтобы пользователь видел как работает интерфейс (при отсутствии реального SignalR)
+        // но только если реальный хаб не шлёт данные — проверяем отсутствие соединения
+        demoInterval = setInterval(() => {
+            if(!connection || connection.state !== signalR.HubConnectionState.Connected) {
+                // если не подключены - не генерируем
+                return;
+            }
+            // демо-события отключаются если есть реальные сообщения – но мы добавим как запасную "демо-подсказку"
+            // однако они не будут мешать, т.к. сообщения реальные перекрывают. Для чистоты: лучше убрать, но чтобы показать красоту UI - не будем насиловать.
+            // Оставим только если действительно нет бекенда. Во избежание дублей - отключаем
+        }, 15000);
+    }
+
+    function updateEventCounter() {
+        eventCountSpan.innerText = eventsCount;
+    }
+
+    function clearAllEvents() {
+        const items = document.querySelectorAll('.notif-item');
+        items.forEach(el => el.remove());
+        eventsCount = 0;
+        updateEventCounter();
+        if (feedContainer.querySelectorAll('.notif-item').length === 0) {
+            emptyFeed.style.display = 'flex';
+        } else {
+            emptyFeed.style.display = 'none';
+        }
+    }
+
+    function addEventToFeed(title, message, type = 'info') {
+        if (emptyFeed.style.display !== 'none') emptyFeed.style.display = 'none';
+        const eventDiv = document.createElement('div');
+        eventDiv.className = `notif-item notif-${type}`;
+        let iconSymbol = type === 'won' ? '🏆' : (type === 'lost' ? '❌' : '📢');
+        if (title.includes('выиграна') || title.includes('Won')) iconSymbol = '🏆';
+        if (title.includes('проиграна') || title.includes('Lost')) iconSymbol = '❌';
+        eventDiv.innerHTML = `
+            <div class="notif-icon">${iconSymbol}</div>
+            <div class="notif-content">
+                <div class="notif-title-item">${escapeHtml(title)}</div>
+                <div class="notif-msg">${escapeHtml(message.substring(0, 160))}</div>
+                <div class="notif-time"><i class="far fa-clock"></i> ${new Date().toLocaleTimeString()}</div>
+            </div>
+        `;
+        feedContainer.prepend(eventDiv);
+        eventsCount++;
+        updateEventCounter();
+        if (feedContainer.children.length > 60) feedContainer.removeChild(feedContainer.lastChild);
+    }
+
+    function escapeHtml(str) {
+        return str.replace(/[&<>]/g, function(m) {
+            if (m === '&') return '&amp;';
+            if (m === '<') return '&lt;';
+            if (m === '>') return '&gt;';
+            return m;
+        });
+    }
+
+    function setUiConnectionState(connected, reconnecting = false) {
+        if (connected) {
+            statusDot.className = 'dot active';
+            connectionLabel.innerText = 'Подключено (WebSocket)';
+            connectBtn.style.display = 'none';
+            disconnectBtn.style.display = 'inline-flex';
+            feedbackMsg.innerHTML = '<i class="fas fa-check-circle"></i> Аутентификация пройдена, канал активен';
+            feedbackMsg.style.color = '#2e7d32';
+            tokenInput.disabled = true;
+        } else if (reconnecting) {
+            statusDot.className = 'dot reconnecting';
+            connectionLabel.innerText = 'Переподключение...';
+            connectBtn.style.display = 'none';
+            disconnectBtn.style.display = 'inline-flex';
+        } else {
+            statusDot.className = 'dot';
+            connectionLabel.innerText = 'Отключено';
+            connectBtn.style.display = 'inline-flex';
+            disconnectBtn.style.display = 'none';
+            tokenInput.disabled = false;
+            if (activeToken) {
+                feedbackMsg.innerHTML = '<i class="fas fa-exclamation-triangle"></i> Соединение потеряно, нажмите "Подключиться" заново';
+                feedbackMsg.style.color = '#f59e0b';
+            } else {
+                feedbackMsg.innerHTML = '<i class="fas fa-info-circle"></i> Введите JWT токен для подключения';
+                feedbackMsg.style.color = '#5e6f8d';
+            }
+        }
+    }
+
+    async function disconnectFromHub() {
+        stopDemoEvents();
+        if (connection) {
+            try { await connection.stop(); } catch(e) { console.warn(e); }
+            connection = null;
+        }
+        activeToken = '';
+        localStorage.removeItem('crmflow_token');
+        setUiConnectionState(false);
+    }
+
+    async function connectToHub() {
+        const token = tokenInput.value.trim();
+        if (!token) {
+            feedbackMsg.innerHTML = '<i class="fas fa-times-circle"></i> Токен обязателен для подключения (введите любой ключ для демонстрации)';
+            feedbackMsg.style.color = '#c62828';
+            return;
+        }
+        if (connection) await disconnectFromHub();
+        activeToken = token;
+        localStorage.setItem('crmflow_token', token);
+        setUiConnectionState(false, true);
+        
+        // ДЛЯ КОРРЕКТНОЙ РАБОТЫ с реальным бекендом (ожидается SignalR Hub по пути "/notificationHub")
+        connection = new signalR.HubConnectionBuilder()
+            .withUrl("/notificationHub", {
+                accessTokenFactory: () => token
+            })
+            .withAutomaticReconnect([0, 1000, 3000, 6000, 10000])
+            .build();
+
+        // Обработка входящих сообщений
+        connection.on("ReceiveMessage", (msg) => {
+            console.log("✉️ Получено сообщение:", msg);
+            let type = 'info';
+            let title = 'Обновление статуса';
+            if (msg && (msg.includes('Won') || msg.includes('выиграна'))) {
+                type = 'won';
+                title = '✅ Сделка выиграна';
+            } else if (msg && (msg.includes('Lost') || msg.includes('проиграна'))) {
+                type = 'lost';
+                title = '❌ Сделка проиграна';
+            } else if (msg && msg.includes('deal')) {
+                title = '📌 Изменение сделки';
+            }
+            addEventToFeed(title, msg || 'Событие от сервера', type);
+        });
+
+        connection.onclose(() => { setUiConnectionState(false); });
+        connection.onreconnecting(() => setUiConnectionState(false, true));
+        connection.onreconnected(() => setUiConnectionState(true));
+        
+        try {
+            await connection.start();
+            setUiConnectionState(true);
+            // стартуем демо-подсказку не будем чтобы не мешать реальным сообщениям
+        } catch (err) {
+            console.error("Ошибка SignalR:", err);
+            let errDetail = err.message || 'Не удалось соединиться с хабом /notificationHub';
+            if (err.message && err.message.includes("404")) errDetail = 'Хаб не найден. Убедитесь, что сервер запущен и хаб /notificationHub доступен.';
+            feedbackMsg.innerHTML = `<i class="fas fa-ban"></i> Ошибка: ${errDetail}`;
+            feedbackMsg.style.color = '#c62828';
+            setUiConnectionState(false);
+            connection = null;
+        }
+    }
+
+    // Загружаем токен из localStorage и автоматически подключаемся, если он есть
+    const storedToken = localStorage.getItem('crmflow_token');
+    if (storedToken) {
+        tokenInput.value = storedToken;
+        // автоматическое подключение при загрузке (если был сохранен)
+        setTimeout(() => connectToHub(), 200);
+    }
+
+    connectBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        connectToHub();
+    });
+    disconnectBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        disconnectFromHub();
+    });
+    clearAllBtn.addEventListener('click', () => clearAllEvents());
+</script>
+</body>
+</html>

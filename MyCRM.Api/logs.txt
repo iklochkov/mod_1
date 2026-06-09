@@ -1,0 +1,1367 @@
+2026-05-28T16:20:50.1300156+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-28T16:20:50.1330634+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-28T16:20:50.1334204+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-28T16:20:50.1334681+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-28T16:21:40.0572718+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-28T16:22:16.1572549+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-28T16:22:21.1571962+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (34ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-28T16:22:21.2154989+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-28T16:22:21.2227984+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-28T16:22:21.2617347+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-28T16:22:21.3075974+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-28T16:22:21.3077646+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-28T16:22:21.3079849+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-28T16:22:21.3080143+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-28T16:22:21.3080388+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T10:52:02.5210014+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T10:52:02.5235635+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T10:52:02.5553963+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T10:56:47.9903747+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (34ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T10:56:48.0480089+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T10:56:48.0555838+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T10:56:48.0936502+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T10:56:48.1449827+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T10:56:48.1451799+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T10:56:48.1454190+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T10:56:48.1454420+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T10:56:48.1454734+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T10:57:15.8650129+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T10:57:15.9885371+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T10:57:16.1031423+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-05-29T10:58:20.4133889+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.MissingMethodException: Method not found: 'Void AutoMapper.MapperConfiguration..ctor(AutoMapper.MapperConfigurationExpression)'.
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method177(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2026-05-29T10:59:08.2419419+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T10:59:08.2442698+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T10:59:08.2829649+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T11:01:09.0036617+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (35ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:01:09.0609118+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:01:09.0681889+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T11:01:09.1110446+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T11:01:09.1556545+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T11:01:09.1558013+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T11:01:09.1558459+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T11:01:09.1558651+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T11:01:09.1558998+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T11:01:16.2114628+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T11:01:16.3704514+03:00	INFO	[MyCRM.Api.Controllers.ClientsV1Controller]	[0]	userId из токена: 6215c797-feff-4a7b-a725-76662f985213
+2026-05-29T11:01:16.3729052+03:00	INFO	[MyCRM.Application.Handlers.CreateClientCommandHandler]	[0]	Создание клиента: bbbbb bbb
+2026-05-29T11:01:16.5077908+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Clients" ("Age", "AvatarPath", "CreatedByUserId", "Name", "Surname")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id", "CreatedAt", "ViewCount";
+2026-05-29T11:01:16.5330384+03:00	INFO	[MyCRM.Infrastructure.Services.ClientService]	[0]	Добавлен клиент: ID=28, Имя=bbbbb
+2026-05-29T11:01:16.5333710+03:00	INFO	[MyCRM.Application.Handlers.CreateClientCommandHandler]	[0]	Клиент создан: ID=28, Имя=bbbbb
+2026-05-29T11:24:07.6623649+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T11:24:07.6651382+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T11:24:07.6863872+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T11:25:12.1732403+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (37ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:25:12.2342846+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:25:12.2441662+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T11:25:12.2895253+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T11:25:12.3334600+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T11:25:12.3336139+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T11:25:12.3336669+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T11:25:12.3337001+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T11:25:12.3337277+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T11:25:15.7267104+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T11:25:15.8682694+03:00	DBUG	[MyCRM.Application.Handlers.GetAllClientQueryHandler]	[0]	GET clients: page=1, pageSize=10, name=(null), sortBy=Id, sortOrder=asc
+2026-05-29T11:25:15.9307356+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Clients" AS c
+2026-05-29T11:25:15.9440778+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+FROM "Clients" AS c
+ORDER BY c."Id"
+LIMIT @__p_1 OFFSET @__p_0
+2026-05-29T11:25:15.9730402+03:00	INFO	[MyCRM.Application.Handlers.GetAllClientQueryHandler]	[0]	Возвращено 10 из 27
+2026-05-29T11:41:51.0907282+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T11:41:51.0932852+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T11:41:51.1129749+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T11:43:07.1152137+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:43:07.1760009+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:43:07.1842103+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T11:43:07.2222459+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T11:43:07.2641839+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T11:43:07.2643935+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T11:43:07.2644382+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T11:43:07.2644519+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T11:43:07.2644770+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T11:43:17.7875412+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T11:43:17.9252840+03:00	DBUG	[MyCRM.Api.Services.ClientWebService]	[0]	Запрос клиента ID=7
+2026-05-29T11:43:18.0258008+03:00	WARN	[Microsoft.EntityFrameworkCore.Query]	[Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning]	Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-05-29T11:43:18.0322467+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T11:43:18.0618247+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 7 добавлен в кэш
+2026-05-29T11:43:18.0711883+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T11:43:22.0796096+03:00	DBUG	[MyCRM.Api.Services.ClientWebService]	[0]	Запрос клиента ID=7
+2026-05-29T11:43:22.0907844+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T11:43:22.0914343+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 7 добавлен в кэш
+2026-05-29T11:43:22.0971840+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T11:43:23.0314736+03:00	DBUG	[MyCRM.Api.Services.ClientWebService]	[0]	Запрос клиента ID=7
+2026-05-29T11:43:23.0330912+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T11:43:23.0334868+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 7 добавлен в кэш
+2026-05-29T11:43:23.0397688+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T11:46:24.7232574+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T11:46:24.7254998+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T11:46:24.7321776+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T11:46:34.7658180+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (33ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:46:34.8266826+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:46:34.8338821+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T11:46:34.8731723+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T11:46:34.9141368+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T11:46:34.9142700+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T11:46:34.9143123+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T11:46:34.9143308+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T11:46:34.9143569+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T11:46:39.7855851+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T11:48:51.6125871+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T11:48:51.6147906+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T11:48:51.6272677+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T11:49:14.5744407+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (33ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:49:14.6315657+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:49:14.6388387+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T11:49:14.6805775+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T11:49:14.7243797+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T11:49:14.7245398+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T11:49:14.7245772+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T11:49:14.7245860+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T11:49:14.7246022+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T11:49:16.8784455+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T11:49:17.0253322+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.ArgumentNullException: Value cannot be null. (Parameter 'logger')
+   at System.ThrowHelper.Throw(String paramName)
+   at Microsoft.Extensions.Logging.LoggerExtensions.Log(ILogger logger, LogLevel logLevel, EventId eventId, Exception exception, String message, Object[] args)
+   at Microsoft.Extensions.Logging.LoggerExtensions.LogDebug(ILogger logger, String message, Object[] args)
+   at MyCRM.Application.Handlers.GetClientQueryHandler.Handle(GetClientQuery request, CancellationToken cancellationToken) in /home/dunice/MyCRM/MyCRM.Application/Handlers/GetClientQueryHandler.cs:line 22
+   at MyCRM.Api.Controllers.ClientsV1Controller.GetById(Int32 id, CancellationToken token) in /home/dunice/MyCRM/MyCRM.Api/Controllers/ClientsV1Controller.cs:line 62
+   at lambda_method163(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2026-05-29T11:51:02.0242560+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T11:51:02.0264236+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T11:51:02.0501482+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T11:51:10.8687155+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (35ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:51:10.9268998+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T11:51:10.9343720+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T11:51:10.9744688+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T11:51:11.0214271+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T11:51:11.0216116+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T11:51:11.0216783+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T11:51:11.0216914+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T11:51:11.0217296+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T11:51:14.1849833+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T11:51:14.3224458+03:00	DBUG	[MyCRM.Application.Handlers.GetClientQueryHandler]	[0]	Запрос клиента ID=7
+2026-05-29T11:51:14.4219504+03:00	WARN	[Microsoft.EntityFrameworkCore.Query]	[Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning]	Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-05-29T11:51:14.4284508+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T11:51:14.4599584+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 7 добавлен в кэш
+2026-05-29T11:51:14.4764730+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T11:51:16.7988461+03:00	DBUG	[MyCRM.Application.Handlers.GetClientQueryHandler]	[0]	Запрос клиента ID=7
+2026-05-29T11:51:16.8112548+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T11:51:16.8118029+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 7 добавлен в кэш
+2026-05-29T11:51:16.8150001+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T12:39:25.7868917+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T12:39:25.7894833+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T12:39:25.8080149+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T12:41:48.6351289+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T12:41:48.6947577+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T12:41:48.7028909+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T12:41:48.7437639+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T12:41:48.7926977+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T12:41:48.7928886+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T12:41:48.7929373+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T12:41:48.7929665+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T12:41:48.7929970+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T12:42:41.9352510+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T12:42:42.0572635+03:00	DBUG	[MyCRM.Application.Handlers.GetAllClientQueryHandler]	[0]	GET clients: page=1, pageSize=15, name=(null), sortBy=Id, sortOrder=asc
+2026-05-29T12:42:42.1304590+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Clients" AS c
+2026-05-29T12:42:42.1414162+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+FROM "Clients" AS c
+ORDER BY c."Id"
+LIMIT @__p_1 OFFSET @__p_0
+2026-05-29T12:42:42.1782045+03:00	INFO	[MyCRM.Application.Handlers.GetAllClientQueryHandler]	[0]	Возвращено 15 из 27
+2026-05-29T12:42:51.4974866+03:00	DBUG	[MyCRM.Application.Handlers.GetClientQueryHandler]	[0]	Запрос клиента ID=7
+2026-05-29T12:42:51.5678749+03:00	WARN	[Microsoft.EntityFrameworkCore.Query]	[Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning]	Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-05-29T12:42:51.5736616+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T12:42:51.5771869+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 7 добавлен в кэш
+2026-05-29T12:42:51.5864674+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T12:43:11.3879420+03:00	INFO	[MyCRM.Application.Handlers.DeleteClientCommandHandler]	[0]	Удаление клиента ID=14
+2026-05-29T12:43:11.3900960+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T12:43:11.4579848+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM "Clients"
+WHERE "Id" = @p0;
+2026-05-29T12:43:11.4648969+03:00	INFO	[MyCRM.Application.Handlers.DeleteClientCommandHandler]	[0]	Клиент ID=14 удалён
+2026-05-29T14:41:34.5278570+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T14:41:34.5305152+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T14:41:34.5481354+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T16:22:14.6154775+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (33ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T16:22:14.6787570+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T16:22:14.6858326+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T16:22:14.7279591+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T16:22:14.7704843+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T16:22:14.7706050+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T16:22:14.7706484+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T16:22:14.7706670+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T16:22:14.7707058+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T16:22:47.8741414+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T16:22:47.8768559+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T16:22:47.9093186+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T16:22:52.6625561+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (34ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T16:22:52.7299174+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T16:22:52.7382640+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T16:22:52.7795855+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T16:22:52.8249115+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T16:22:52.8250689+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T16:22:52.8251106+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T16:22:52.8251222+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T16:22:52.8251429+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T16:24:59.0154811+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T16:25:29.6731909+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-05-29T16:25:29.6754515+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-05-29T16:25:29.7123523+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-05-29T16:27:04.9064696+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (34ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T16:27:04.9673378+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-05-29T16:27:04.9744789+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T16:27:05.0135810+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-05-29T16:27:05.0545518+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-05-29T16:27:05.0546829+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-05-29T16:27:05.0547244+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-05-29T16:27:05.0547472+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-05-29T16:27:05.0547756+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-05-29T16:27:08.9361529+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-05-29T16:27:09.0839695+03:00	INFO	[MyCRM.Api.Controllers.ClientsV1Controller]	[0]	userId из токена: 
+2026-05-29T16:27:15.6592586+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T16:27:15.7781892+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-05-29T16:27:29.3577531+03:00	INFO	[MyCRM.Api.Controllers.ClientsV1Controller]	[0]	userId из токена: 6215c797-feff-4a7b-a725-76662f985213
+2026-05-29T16:27:29.3603672+03:00	INFO	[MyCRM.Application.Handlers.Clients.CreateClientCommandHandler]	[0]	Создание клиента: Иван Петров
+2026-05-29T16:27:29.4668498+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Clients" ("Age", "AvatarPath", "CreatedByUserId", "Name", "Surname")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id", "CreatedAt", "ViewCount";
+2026-05-29T16:27:29.4905280+03:00	INFO	[MyCRM.Infrastructure.Services.ClientService]	[0]	Добавлен клиент: ID=29, Имя=Иван
+2026-05-29T16:27:29.4907748+03:00	INFO	[MyCRM.Application.Handlers.Clients.CreateClientCommandHandler]	[0]	Клиент создан: ID=29, Имя=Иван
+2026-05-29T16:28:11.5829415+03:00	DBUG	[MyCRM.Application.Handlers.Clients.GetAllClientQueryHandler]	[0]	GET clients: page=1, pageSize=10, name=Иван, sortBy=Name, sortOrder=asc
+2026-05-29T16:28:11.6193672+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__name_0_rewritten='?'], CommandType='Text', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Clients" AS c
+WHERE c."Name" LIKE @__name_0_rewritten ESCAPE '\'
+2026-05-29T16:28:11.6277240+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__name_0_rewritten='?', @__p_2='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+FROM "Clients" AS c
+WHERE c."Name" LIKE @__name_0_rewritten ESCAPE '\'
+ORDER BY c."Name"
+LIMIT @__p_2 OFFSET @__p_1
+2026-05-29T16:28:11.6348722+03:00	INFO	[MyCRM.Application.Handlers.Clients.GetAllClientQueryHandler]	[0]	Возвращено 3 из 3
+2026-05-29T16:28:28.8081243+03:00	DBUG	[MyCRM.Application.Handlers.Clients.GetClientQueryHandler]	[0]	Запрос клиента ID=1
+2026-05-29T16:28:28.8516946+03:00	WARN	[Microsoft.EntityFrameworkCore.Query]	[Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning]	Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-05-29T16:28:28.8563742+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T16:28:28.8813441+03:00	DBUG	[MyCRM.Infrastructure.Services.ClientService]	[0]	Клиент 1 добавлен в кэш
+2026-05-29T16:28:28.8915227+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+UPDATE "Clients" SET "ViewCount" = "ViewCount" + 1 WHERE "Id" = @p0
+2026-05-29T16:28:38.2321084+03:00	INFO	[MyCRM.Application.Handlers.Clients.DeleteClientCommandHandler]	[0]	Удаление клиента ID=1
+2026-05-29T16:28:38.2340407+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T16:28:38.2690592+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = Int32), @p2='?' (DbType = Int32), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+DELETE FROM "Deals"
+WHERE "Id" = @p0;
+DELETE FROM "Deals"
+WHERE "Id" = @p1;
+DELETE FROM "Deals"
+WHERE "Id" = @p2;
+DELETE FROM "Clients"
+WHERE "Id" = @p3;
+2026-05-29T16:28:38.2833307+03:00	INFO	[MyCRM.Application.Handlers.Clients.DeleteClientCommandHandler]	[0]	Клиент ID=1 удалён
+2026-05-29T16:29:00.6844084+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Создание сделки: Продажа iPhone 15, Клиент ID=1
+2026-05-29T16:29:00.6844417+03:00	WARN	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Некорректный статус сделки: InProgress
+2026-05-29T16:29:00.6923095+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: No route matches the supplied values.
+   at Microsoft.AspNetCore.Mvc.CreatedAtActionResult.OnFormatting(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor.ExecuteAsyncCore(ActionContext context, ObjectResult result, Type objectType, Object value)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2026-05-29T16:30:21.1882937+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Создание сделки: Продажа iPhone 15, Клиент ID=1
+2026-05-29T16:30:21.1905246+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T16:30:21.1939803+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.ArgumentException: Клиент с ID 1 не найден
+   at MyCRM.Infrastructure.Services.DealService.AddDealAsync(String name, Int32 amount, Int32 count, DealStatus status, Int32 clientId, DateTime deadline, String userId, CancellationToken token) in /home/dunice/MyCRM/MyCRM.Infrastructure/Services/DealService.cs:line 38
+   at MyCRM.Application.Handlers.Deals.CreateDealCommandHandler.Handle(CreateDealCommand request, CancellationToken cancellationToken) in /home/dunice/MyCRM/MyCRM.Application/Handlers/Deals/CreateDealCommandHandler.cs:line 41
+   at MyCRM.Api.Controllers.DealsController.Create(CreateDealCommand command, CancellationToken token) in /home/dunice/MyCRM/MyCRM.Api/Controllers/DealsController.cs:line 31
+   at lambda_method447(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.ResponseCaching.ResponseCachingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.<Invoke>g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)
+
+2026-05-29T16:30:27.2199498+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Создание сделки: Продажа iPhone 15, Клиент ID=2
+2026-05-29T16:30:27.2212227+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-05-29T16:30:27.2338840+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Deals" ("Amount", "ClientId", "Count", "CreatedAt", "CreatedByUserId", "Deadline", "Name", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+2026-05-29T16:30:27.2359539+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Сделка создана: ID=25, Название=Продажа iPhone 15
+2026-05-29T16:30:50.4786700+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetAllDealsQueryHandler]	[0]	Запрос всех сделок
+2026-05-29T16:30:50.4940223+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status", c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount", w."Id", w."DealId", w."DueDate", w."Status", w."Title"
+FROM "Deals" AS d
+INNER JOIN "Clients" AS c ON d."ClientId" = c."Id"
+LEFT JOIN "WorkTasks" AS w ON d."Id" = w."DealId"
+ORDER BY d."Id", c."Id"
+2026-05-29T16:30:50.4977597+03:00	INFO	[MyCRM.Application.Handlers.Deals.GetAllDealsQueryHandler]	[0]	Возвращено 20 сделок
+2026-05-29T16:31:07.2216819+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetDealQueryHandler]	[0]	Запрос сделки ID=14
+2026-05-29T16:31:07.2262578+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-05-29T16:31:26.2764285+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetDealQueryHandler]	[0]	Запрос сделки ID=14
+2026-05-29T16:31:26.2775832+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-05-29T16:32:57.3563443+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T16:32:57.4286905+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-05-29T16:32:59.6095965+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-05-29T16:32:59.6829548+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T09:24:08.4212069+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T09:24:08.4221714+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T09:24:08.4365563+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T12:45:18.9862189+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T12:45:19.0498390+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T12:45:19.0584067+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T12:45:19.1010327+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T12:45:19.1525270+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T12:45:19.1526713+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T12:45:19.1527298+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T12:45:19.1527412+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T12:45:19.1527640+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T12:46:44.4962923+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T12:46:44.5904645+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T12:46:44.7066931+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T12:48:23.5195817+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetDealQueryHandler]	[0]	Запрос сделки ID=24
+2026-06-01T12:48:23.5379563+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:49:18.9601148+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=24
+2026-06-01T12:49:18.9618415+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:49:18.9709462+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:49:19.0587066+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T12:49:19.1198516+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?', @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "WorkTasks" ("DealId", "DueDate", "Status", "Title")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2026-06-01T12:50:20.9442039+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetDealQueryHandler]	[0]	Запрос сделки ID=25
+2026-06-01T12:50:21.1183246+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:50:49.5219979+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=24
+2026-06-01T12:50:49.5230596+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:50:49.5246134+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:50:49.5268013+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T12:50:49.5270266+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=24 обновлена
+2026-06-01T12:52:38.0989146+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Создание сделки: Сделка с ООО ТЕСТ, Клиент ID=26
+2026-06-01T12:52:38.1398328+03:00	WARN	[Microsoft.EntityFrameworkCore.Query]	[Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning]	Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-06-01T12:52:38.1474172+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-06-01T12:52:38.1795552+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Deals" ("Amount", "ClientId", "Count", "CreatedAt", "CreatedByUserId", "Deadline", "Name", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+2026-06-01T12:52:38.1822800+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Сделка создана: ID=26, Название=Сделка с ООО ТЕСТ
+2026-06-01T12:53:28.0609824+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=26
+2026-06-01T12:53:28.0621710+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:53:28.0643577+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T12:53:28.0656458+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T12:53:28.0678914+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?', @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "WorkTasks" ("DealId", "DueDate", "Status", "Title")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2026-06-01T14:13:34.4191657+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T14:13:34.4218624+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T14:13:34.4277458+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T14:40:11.9934436+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T14:40:12.0532596+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T14:40:12.0604646+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T14:40:12.0991620+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T14:40:12.1432170+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T14:40:12.1433612+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T14:40:12.1434156+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T14:40:12.1434381+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T14:40:12.1446871+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T14:40:22.9670447+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T14:41:07.5417522+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T14:41:07.5442199+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T14:41:07.5875620+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T14:41:26.8158881+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (35ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T14:41:26.8752454+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T14:41:26.8825567+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T14:41:26.9244769+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T14:41:26.9707577+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T14:41:26.9709259+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T14:41:26.9709927+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T14:41:26.9710167+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T14:41:26.9728703+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T14:41:35.6536582+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T14:41:35.6558894+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T14:41:35.6916607+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T14:41:56.8162177+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (34ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T14:41:56.8763511+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T14:41:56.8842171+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T14:41:56.9240968+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T14:41:56.9678247+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T14:41:56.9679532+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T14:41:56.9679989+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T14:41:56.9680257+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T14:41:56.9692823+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T14:41:58.8480127+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T14:42:05.4756643+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T14:42:05.5905074+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T14:42:27.3704366+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetDealQueryHandler]	[0]	Запрос сделки ID=17
+2026-06-01T14:42:27.3895856+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T14:43:03.5235835+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Создание сделки: Сделка с ИП ПАС, Клиент ID=26
+2026-06-01T14:43:03.5678884+03:00	WARN	[Microsoft.EntityFrameworkCore.Query]	[Microsoft.EntityFrameworkCore.Query.MultipleCollectionIncludeWarning]	Compiling a query which loads related collections for more than one collection navigation, either via 'Include' or through projection, but no 'QuerySplittingBehavior' has been configured. By default, Entity Framework will use 'QuerySplittingBehavior.SingleQuery', which can potentially result in slow query performance. See https://go.microsoft.com/fwlink/?linkid=2134277 for more information. To identify the query that's triggering this warning call 'ConfigureWarnings(w => w.Throw(RelationalEventId.MultipleCollectionIncludeWarning))'.
+2026-06-01T14:43:03.5729283+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT t."Id", t."Age", t."AvatarPath", t."CreatedAt", t."CreatedByUserId", t."Name", t."Surname", t."ViewCount", c0."Id", c0."ClientId", c0."Email", c0."Phone", d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM (
+    SELECT c."Id", c."Age", c."AvatarPath", c."CreatedAt", c."CreatedByUserId", c."Name", c."Surname", c."ViewCount"
+    FROM "Clients" AS c
+    WHERE c."Id" = @__id_0
+    LIMIT 1
+) AS t
+LEFT JOIN "Contacts" AS c0 ON t."Id" = c0."ClientId"
+LEFT JOIN "Deals" AS d ON t."Id" = d."ClientId"
+ORDER BY t."Id", c0."Id"
+2026-06-01T14:43:03.7136548+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "Deals" ("Amount", "ClientId", "Count", "CreatedAt", "CreatedByUserId", "Deadline", "Name", "Status")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7)
+RETURNING "Id";
+2026-06-01T14:43:03.7285311+03:00	INFO	[MyCRM.Application.Handlers.Deals.CreateDealCommandHandler]	[0]	Сделка создана: ID=27, Название=Сделка с ИП ПАС
+2026-06-01T14:43:50.1217351+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T14:43:50.1230172+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T14:43:50.1310254+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T14:43:50.1403137+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T14:43:50.1656674+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?', @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "WorkTasks" ("DealId", "DueDate", "Status", "Title")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2026-06-01T14:44:15.6600914+03:00	DBUG	[MyCRM.Application.Handlers.Deals.GetDealQueryHandler]	[0]	Запрос сделки ID=3
+2026-06-01T14:44:15.6611867+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T14:45:45.6338731+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=3
+2026-06-01T14:45:45.6348787+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T14:45:45.6363412+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T14:45:45.6385025+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T14:45:45.6387072+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=3 обновлена
+2026-06-01T14:56:38.1594679+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T14:56:38.1617273+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T14:56:38.2052257+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:01:05.7014730+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (35ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:01:05.7590297+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:01:05.7661127+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:01:05.8056512+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:01:05.8519100+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:01:05.8520500+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:01:05.8520998+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:01:05.8521132+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:01:05.8550339+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:01:10.0876958+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:01:16.8919127+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:01:17.0079216+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T15:01:41.0426857+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=3
+2026-06-01T15:01:41.0619545+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:01:41.0929811+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:01:41.1770167+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:01:41.1825454+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=3 обновлена
+2026-06-01T15:01:54.6938603+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:01:54.6952113+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:01:54.6962091+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:01:54.7001708+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:01:54.7006036+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:08:21.3690267+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:08:21.3715016+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:08:21.3955657+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:08:26.6075525+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (37ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:08:26.6663296+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:08:26.6733302+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:08:26.7150709+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:08:26.7617810+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:08:26.7619315+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:08:26.7619698+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:08:26.7619824+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:08:26.7636319+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:08:29.9682800+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:08:57.0937090+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:08:57.2133557+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T15:09:18.0100122+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:09:18.0303452+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:09:18.0679908+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:09:18.1535016+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:09:18.1584486+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:10:58.9132420+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:10:58.9157277+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:10:58.9527022+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:11:03.8111936+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (41ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:11:03.8792841+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (6ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:11:03.8887966+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:11:03.9304317+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:11:03.9783838+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:11:03.9785106+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:11:03.9785519+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:11:03.9785654+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:11:03.9799175+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:11:06.5568475+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:12:51.5386406+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:12:51.5416042+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:12:51.5753221+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:12:56.5055985+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:12:56.5626600+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:12:56.5701099+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:12:56.6082834+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:12:56.6518952+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:12:56.6520847+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:12:56.6521548+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:12:56.6521786+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:12:56.6536245+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:13:00.6300266+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:13:06.6185724+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:13:06.7522510+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T15:13:27.2758974+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:13:27.2980908+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:13:27.3368318+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:13:27.4324300+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (5ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:13:27.4394574+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:13:52.9188091+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:13:52.9202695+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:13:52.9213024+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:13:52.9236199+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:13:52.9239594+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:23:04.8122579+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:23:04.8145124+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:23:04.8325045+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:23:09.4024931+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (53ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:23:09.4822078+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:23:09.4912898+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:23:09.5417147+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:23:09.5962420+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:23:09.5964095+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:23:09.5964721+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:23:09.5964891+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:23:09.5983740+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:23:11.7154633+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:24:54.6924986+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:24:54.6949655+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:24:54.7323330+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:25:00.0631360+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (33ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:25:00.1207767+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:25:00.1279441+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:25:00.1678147+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:25:00.2146273+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:25:00.2147536+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:25:00.2147920+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:25:00.2148145+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:25:00.2164521+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:25:02.6634688+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:25:14.8666398+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:25:14.9953266+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T15:25:29.4342421+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:25:29.4509356+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:25:29.4836535+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:25:29.5625789+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:25:29.5673959+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:25:51.2078637+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:25:51.2093692+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:25:51.2169992+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:25:51.2250988+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:25:51.2800357+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?', @p3='?'], CommandType='Text', CommandTimeout='30']
+INSERT INTO "WorkTasks" ("DealId", "DueDate", "Status", "Title")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2026-06-01T15:27:33.5974410+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:27:33.6003034+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:27:33.6560662+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:27:37.9143723+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (33ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:27:37.9723211+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:27:37.9792622+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:27:38.0192433+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:27:38.0680830+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:27:38.0682261+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:27:38.0682657+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:27:38.0682943+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:27:38.0696644+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:27:39.0161848+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:27:53.6908608+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:27:53.8075431+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a0."Name"
+FROM "AspNetUserRoles" AS a
+INNER JOIN "AspNetRoles" AS a0 ON a."RoleId" = a0."Id"
+WHERE a."UserId" = @__userId_0
+2026-06-01T15:28:20.5240327+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:28:20.5429620+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:28:20.5765719+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:28:20.6599592+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:28:20.6658278+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:31:06.6812139+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:31:06.6839307+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:31:06.7136952+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:31:11.2953451+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (36ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:31:11.3552055+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:31:11.3620773+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:31:11.4079670+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:31:11.4551740+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:31:11.4553047+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:31:11.4553487+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:31:11.4553629+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:31:11.4566647+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:31:12.7418970+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:31:22.8264684+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=27
+2026-06-01T15:31:22.8748861+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:31:22.9066780+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:31:22.9856771+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:31:22.9910517+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=27 обновлена
+2026-06-01T15:50:50.8674847+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application is shutting down...
+2026-06-01T15:50:50.8697693+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopping]	Hosting stopping
+2026-06-01T15:50:50.9152263+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Stopped]	Hosting stopped
+2026-06-01T15:50:59.9151115+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (34ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:50:59.9763607+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__normalizedName_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."ConcurrencyStamp", a."Name", a."NormalizedName"
+FROM "AspNetRoles" AS a
+WHERE a."NormalizedName" = @__normalizedName_0
+LIMIT 1
+2026-06-01T15:50:59.9840298+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='?'], CommandType='Text', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2026-06-01T15:51:00.0357336+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Starting]	Hosting starting
+2026-06-01T15:51:00.0852289+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5236
+2026-06-01T15:51:00.0853797+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2026-06-01T15:51:00.0854263+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2026-06-01T15:51:00.0854562+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: /home/dunice/MyCRM/MyCRM.Api
+2026-06-01T15:51:00.0867345+03:00	DBUG	[Microsoft.Extensions.Hosting.Internal.Host]	[Started]	Hosting started
+2026-06-01T15:51:03.0427333+03:00	WARN	[Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware]	[FailedToDeterminePort]	Failed to determine the https port for redirect.
+2026-06-01T15:51:28.4810441+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Обновление сделки ID=3
+2026-06-01T15:51:28.5286179+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:51:28.5602567+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT d."Id", d."Amount", d."ClientId", d."Count", d."CreatedAt", d."CreatedByUserId", d."Deadline", d."Name", d."Status"
+FROM "Deals" AS d
+WHERE d."Id" = @__id_0
+LIMIT 1
+2026-06-01T15:51:28.6355913+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[@p8='?' (DbType = Int32), @p0='?' (DbType = Decimal), @p1='?' (DbType = Int32), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?'], CommandType='Text', CommandTimeout='30']
+UPDATE "Deals" SET "Amount" = @p0, "ClientId" = @p1, "Count" = @p2, "CreatedAt" = @p3, "CreatedByUserId" = @p4, "Deadline" = @p5, "Name" = @p6, "Status" = @p7
+WHERE "Id" = @p8;
+2026-06-01T15:51:28.6405224+03:00	INFO	[MyCRM.Application.Handlers.Deals.UpdateDealCommandHandler]	[0]	Сделка ID=3 обновлена
